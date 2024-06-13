@@ -121,4 +121,9 @@ const videos = [{
     time:"07:20"
 }
 ];
-localStorage.setItem('videos', JSON.stringify(videos));
+const videosJSON = JSON.stringify(videos);
+
+// Store the data in localStorage
+localStorage.setItem('videos', videosJSON);
+
+console.log('Video data has been saved to localStorage.');

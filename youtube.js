@@ -1,5 +1,4 @@
 const file  = JSON.parse(localStorage.getItem('videos'));
-console.log(file);
 let ytVideos = '';
 file.forEach((videos) => {
     ytVideos +=`
