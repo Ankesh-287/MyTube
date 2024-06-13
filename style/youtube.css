@@ -320,8 +320,9 @@ p{
 #panel{
     display: grid;
     background-color: var(--dark-bg);
-    padding-top: 20px;
+    padding-top: 80px;
     grid-column-gap: 16px;
+
 }
 
 .thumbnail{
